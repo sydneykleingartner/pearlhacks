@@ -54,5 +54,5 @@ img.main-image:hover {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	/*here we are overwriting a bootstrap style with our custom version of the style - the cascade in action.*/
 	/*background-color: #000;*/
-	background-color: #808080; 	
+	background-color: darkgrey;	
 }
