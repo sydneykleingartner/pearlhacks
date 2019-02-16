@@ -1,0 +1,85 @@
+/*text*/
+
+h1
+{
+
+}
+
+h4
+{
+	color: #369; /*hex code for blue*/
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+p
+{
+	font-size: 16px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*containers*/
+
+div
+{
+	/*border: 1px solid red;*/
+}
+
+div.main-content
+{
+	color: #000; /*#000 is hex code for black*/
+}
+
+
+
+
+
+
+
+
+
+
+/*images*/
+img.main-image
+{
+	float: left; /*"float this image to the left of the text next to it"*/
+	margin-right: 16px;/*add space b/w the right side of the image and the text next to it*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*links*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	/*here we are overwriting a bootstrap style with our custom version of the style - the cascade in action.*/
+	/*background-color: #000;*/
+}
