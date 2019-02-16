@@ -46,7 +46,7 @@ CAREERS:
 primary tasks:
   Lily -> careers, webscraping
   Tuhina -> alerts, embedding twitter feed into Lily's
-  Alexa ->
+  Alexa -> researching 
   Sydney ->
 
 what we want to do next:
