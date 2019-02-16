@@ -20,6 +20,10 @@ ideas:
         
 
 what we want to do:
-  - web page
+  - web page 
+      - pages: home, about us, mission statement, contact
       - use Bandwidth API for messaging
-      - use a form to gather the information
+      - use a form to gather the information for those who want to recieve text notifications
+      
+what we want to do next:
+ - mobile app versions
