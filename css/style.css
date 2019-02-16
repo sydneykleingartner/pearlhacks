@@ -42,15 +42,6 @@ div
 	/*border: 1px solid red;*/
 }
 
-div.main-content
-{
-	color: #000; /*#000 is hex code for black*/
-}
-
-
-
-
-
 
 
 
@@ -59,8 +50,8 @@ div.main-content
 /*images*/
 img.main-image
 {
-	float: left; /*"float this image to the left of the text next to it"*/
-	margin-right: 16px;/*add space b/w the right side of the image and the text next to it*/
+	width:100%; 
+	height: 100%; 
 }
 
 
