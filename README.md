@@ -18,8 +18,9 @@ problem idea:
         - the user would provide a list of career fields they are interested in
         - when a woman does something awesome in that field, the user would get a text alert
 
-what we want to do:
+OVERALL- what we want to do:
   - web page 
+      - free domain -> figure out later
       - pages: home, about us/mission statement, contact
       - content: careers, news, alerts
       - use Bandwidth API for messaging
@@ -31,5 +32,22 @@ what we want to do:
             - YouTube videos
       - web scraping for recent news articles
       
+CAREERS:
+  - fields:
+    - computer science
+    - systems engineering
+    - civil engineering
+    - mechanical engineering
+    - electrical & computer engineering
+    - biomedical engineering
+  - overview of each
+  - what cool things women are doing in each
+
+primary tasks:
+  Lily -> careers, webscraping
+  Tuhina -> alerts, embedding twitter feed into Lily's
+  Alexa ->
+  Sydney ->
+
 what we want to do next:
  - mobile app versions
