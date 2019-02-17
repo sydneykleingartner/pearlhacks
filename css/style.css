@@ -5,6 +5,9 @@ h2
 	font-weight:bold;
 	font-style:italic;
 }
+h2#quotetwo{
+	padding-top:10px;
+}
 
 h4
 {
@@ -50,7 +53,6 @@ div#contactbanner{
 }
 div#quotetwo{
 	text-align:center;
-	padding-top:10px;
 }
 
 /*images*/
