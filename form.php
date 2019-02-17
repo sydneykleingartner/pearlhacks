@@ -18,7 +18,7 @@ try {
     }
 catch(PDOException $e)
     {
-    echo $sql . "<br>" . $e->getMessage();
+    echo "ERROR: ". $e->getMessage();
     }
 
 $conn = null;
