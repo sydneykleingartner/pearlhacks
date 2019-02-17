@@ -67,6 +67,10 @@ div#quotetwo{
 }
 
 /*images*/
+
+img{
+	max-width:100%; 
+}
 iframe{
 	width:100%;
 }
