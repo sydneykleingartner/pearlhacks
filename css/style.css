@@ -35,8 +35,9 @@ div.jumbotron.main-content
 	/*border: 1px solid red;*/
 }
 
-
-
+div#contactbanner{
+	width:100%; 
+}
 
 /*images*/
 
