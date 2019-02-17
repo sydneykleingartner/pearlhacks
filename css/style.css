@@ -56,6 +56,10 @@ div#quotetwo{
 }
 
 /*images*/
+iframe{
+	width:100%;
+	height:100%; 
+}
 
 img.contactimg{
     width: 100%;
