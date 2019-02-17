@@ -13,6 +13,13 @@ h4
 	font-family: 'Montserrat', sans-serif;
 
 }
+h5
+{
+	color: black; /*hex code for blue*/
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+
+}
 
 
 p
