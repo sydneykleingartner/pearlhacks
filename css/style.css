@@ -33,13 +33,6 @@ p
 	font-family: 'Nanum Myeongjo', serif;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> ad0485498dc8e5bcdb21ef1f3020dda0ea86508b
 /*containers*/
 
 div.jumbotron.main-content
@@ -57,7 +50,7 @@ div#quotetwo{
 	text-align:center;
 }
 
-<<<<<<< HEAD
+
 #iframe {
 	position: absolute;
 	top: -170px;
@@ -66,7 +59,7 @@ div#quotetwo{
 #includedContent {
 	overflow: hidden;
 	position: relative;
-=======
+
 /*images*/
 iframe{
 	width:100%;
@@ -76,7 +69,7 @@ iframe{
 img.contactimg{
     width: 100%;
     padding-bottom:15px; 
->>>>>>> ad0485498dc8e5bcdb21ef1f3020dda0ea86508b
+
 }
 
 img.main-image-careers{
