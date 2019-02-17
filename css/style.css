@@ -5,6 +5,9 @@ h2
 	font-weight:bold;
 	font-style:italic;
 }
+h2#quotetwo{
+	padding-top:10px;
+}
 
 h4
 {
@@ -47,6 +50,9 @@ div#contactbanner{
 	width:100%; 
 	padding-top: 15px; 
 	padding-bottom:15px; 
+}
+div#quotetwo{
+	text-align:center;
 }
 
 /*images*/
