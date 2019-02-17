@@ -44,10 +44,10 @@ CAREERS:
   - what cool things women are doing in each
 
 primary tasks:
-  Lily -> careers, webscraping
-  Tuhina -> alerts, embedding twitter feed into Lily's, website frame
-  Alexa -> researching 
-  Sydney ->
+  Lily -> news, webscraping
+  Tuhina -> alerts, contact, embedding twitter feed, website frame
+  Alexa -> researching, careers
+  Sydney -> content, graphics
 
 what we want to do next:
  - mobile app versions
