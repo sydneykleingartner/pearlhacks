@@ -1,17 +1,12 @@
 <?php
-
-    $host="localhost";
-    $user="root";
-    $password="";
-    $con=mysql_connect($host,$user,$password);
-
-    if(!$con) {
+    try {
+        $user="root";
+        $password="";
+        $dbh = new PDO('mysql:host=localhost', $user, $password);
         echo '<h1>Connected to MySQL</h1>';
-        //if connected then Select Database.
-        $db=mysql_select_db("YOUR_DATABASE_NAME",$con);
-        $query=mysql_query("YOUR_MYSQL_QUERY",$db);
-    } else {
+    } catch (PDOException $e) {
         echo '<h1>MySQL Server is not connected</h1>';
+        echo "Error!: " . $e->getMessage() . "<br/>";
+        die();
     }
-
 ?>
