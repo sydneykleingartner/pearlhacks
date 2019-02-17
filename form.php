@@ -13,8 +13,7 @@ try {
     $sql->bindParam(":lastname", $_POST['lastname']);
     $sql->bindParam(":email", $_POST['email']);
 
-    // use exec() because no results are returned
-    $conn->exec($sql);
+    $sql->execute();
     echo "New record created successfully";
     }
 catch(PDOException $e)
