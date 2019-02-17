@@ -9,7 +9,11 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql = "INSERT INTO user (fname, lname, email)
-    VALUES ($_POST["firstname"], $_POST["lastname"], $_POST["email"])";
+    VALUES (:firstname, :lastname, :email)";
+    $sql->bindParam(":firstname", $_POST['firstname']);
+    $sql->bindParam(":lastname", $_POST['lastname']);
+    $sql->bindParam(":email", $_POST['email']);
+
     // use exec() because no results are returned
     $conn->exec($sql);
     echo "New record created successfully";
