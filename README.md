@@ -44,7 +44,7 @@ CAREERS:
   - what cool things women are doing in each
 
 primary tasks:
-  Lily -> news, webscraping
+  Lily -> news, embed times magazine
   Tuhina -> alerts, contact, embedding twitter feed, website frame
   Alexa -> researching, careers
   Sydney -> content, graphics
